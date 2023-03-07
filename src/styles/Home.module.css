@@ -1,0 +1,44 @@
+.content_area {
+  float: left;
+  display: inline;
+  width: calc(100vw - 280px);
+  min-height: calc(100vh - 72px);
+  background: #F0EFE8;
+  border-radius: 19px 0px 0px 0px;
+  position: relative;
+}
+
+.container_fluid_custom {
+  padding: 0 30px;
+  margin: auto;
+  width: 100%;
+}
+
+.circle {
+  width: 32px;
+  height: 32px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  border-radius: 50%;
+  background: #FFEEFF;
+}
+
+.panelbox {
+  border-radius: 12px;
+  background: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 28px;
+  color: #212121;
+  letter-spacing: 0em;
+  margin-top: 25px;
+  padding: 6px 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .content_area {
+    width: 100%;
+  }
+}
